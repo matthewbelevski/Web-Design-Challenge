@@ -1,0 +1,180 @@
+/* creates space under the element using the margin bottom */
+.with-margin {
+    margin-bottom: 25px;
+  }
+
+/* creates space under the the element (specifically for under the header */
+.heading_space {
+    
+    margin-bottom: 50px;
+}
+
+/* creates space under the element using the margin bottom under the header of the comparison page */
+.comp_heading_space {
+    margin-bottom: 25px;
+}
+
+/* creates space under the element using the margin bottom for under the visualisation header */
+.vis_heading_space {  
+    margin-bottom: 25px;
+}
+
+/* creates space under the element using the margin bottom under the navigation bar*/
+.nav_space {  
+    margin-bottom: 75px;
+}
+
+/* creates a border around the image of the selected visualisation*/
+.img-border {
+    border: 5px solid #17a2b8;
+}
+
+/* use of padding to fill out the container */
+.container-space {
+    padding : 50px;
+}
+
+/* pad left */
+.pad_left {
+    padding-left : 50px;
+}
+
+/* creates space at the bottom of the visualisation images */
+.visualisation-space {
+    margin-bottom : 40px;
+}
+
+/* creates padding and space for the visualisations sidebar header */
+.visualisation-space2 {
+    margin-top : 30px;
+    padding : 20px;
+}
+
+/* sets the colour of the page */
+.page-colour {
+    background-color: #0278ae; 
+}
+
+/* sets the colour and font of the heading 1 */
+h1 {
+    color: #0278ae;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+/* sets the colour and font of the heading 2 */
+h2 {
+    color: #0278ae;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+/* sets the font of the paragraphs */
+p {
+    font-family: Arial;
+}
+
+/* sets the colour of the nav bar when at full screen */
+.full-nav-colour {
+    background-color: #f8f9fa;
+}
+
+/* sets the colour and font of the text in the navbar */
+.full-nav-colour-text a{
+    color: #212121;
+    font-family: Georgia;
+}
+
+/* creates a button type look around the Latitude text in the nav bar */
+.homebutton-colour {
+    background: #0278ae;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+/* sets the colour when you hover around the Latitude button in the nav bar*/
+.homebutton-hover:hover {
+    background-color: #17a2b8;
+}
+
+/* sets the colour when you hover around the text in the nav bar */
+.navbutton-hover:hover {
+    color: #17a2b8;
+}
+
+/* sets the size of the image in the Visualisations side bar when at full screen */
+.small-image-original {
+    width: 160px; 
+    margin-right: 5px; 
+}
+
+/* settings for the image when it is to be zoomed */
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+
+/* sets the zoom function when hovering over it */
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+/* Changes the elements when the display is 1200px or less */
+@media (max-width: 1200px) {
+    /* changes colour of the navbar */
+    .navbar-colour {
+        background-color: #0278ae;
+    }
+
+    /* changes the background of the page */
+    .background-colour-small {
+        background-color: #f8f9fa;
+    }
+
+    /* changes the text of the Latitude home button */
+    .home-text a{
+        color: whitesmoke;
+    }
+
+    /* sets the colour for the hamburger icon in the nav bar */
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      
+     /* sets the colour of the border of the hamburger button */ 
+    .custom-toggler.navbar-toggler {
+        border-color:#f8f9fa;
+    }
+
+    /* changes the colour of the dropdown menu */
+    .dropdown-colour{
+        background-color: #f8f9fa;
+    }
+
+    /* changes the font colour of the dropdown menu */
+    .dropdown-colour a{
+        color: black;
+    }
+
+    /* changes the size of the images in the Visualisation side bar on the index page*/
+    .small-image {
+        width: 100px;
+    }
+
+    /* changes the size of the images in the Visualisation side bar on the 4 plot pages */
+    .small-image-c {
+        width: 125px;
+    }
+
+    /* changes the colour of the Latitude button on the navbar */
+     .homebutton-colour {
+        background: #0278ae;
+        padding: 0px;
+        font-weight: bold;
+    }
+    
+}
